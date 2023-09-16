@@ -2,7 +2,6 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-  margin: 0;
   color: var(--text-color, #f1b2ce);
   font-family: var(--main-font, sans-serif);
   background: var(--resource, url(../images/cover-image-dark.png)) no-repeat center/cover;

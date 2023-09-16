@@ -58,7 +58,8 @@
 }
 
 @media (prefers-color-scheme: light) {
-     :root {   
+
+:root {   
         --bg-color: #fff1f7;
         --accent-color: #FF8DCB;
         --header-text-color: #FFC2E6;
@@ -66,11 +67,13 @@
         --resource: url(../images/cover-image-light.png);
         --shadow-offset: 1px;
     }
-    
-    .header__title {
-      --accent-color: #FF0070;
-    }
 
+    @media (min-width: 1000px) {
+      .header__title {
+        --accent-color: #FF0070;
+      }
+    }
+    
     .header__theme-menu-button {
       --accent-color: #353430;
     }
