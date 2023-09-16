@@ -24,15 +24,15 @@
   --hover-a-color: #F1B2CE;
 }
 
-.theme_dark .header__theme-menu-button{
+.theme_dark .header__theme-menu-button {
   --accent-color: #ff0070;
 }
 
-.theme_dark .header__description{
+.theme_dark .header__description {
   --bg-color: #000028;
 }
 
-.theme_dark .header__decoration{
+.theme_dark .header__decoration {
   visibility: visible;
 }
 
@@ -53,7 +53,7 @@
   --shadow-offset: 1px;
 }
 
-@media (min-width: 1000px){
+@media (min-width: 1000px) {
   .theme_dark .header__title {
     --accent-color: #ff0070;
   }
