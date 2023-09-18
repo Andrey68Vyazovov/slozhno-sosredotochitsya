@@ -48,6 +48,11 @@
   --accent-color: #ff0070;
 }
 
+.theme_dark .content__image h2 {
+  --bg-color: #000028;
+  --accent-color: #ff0070;
+}
+
 .theme_dark h3 {
   --bg-color: #000028;
 }
